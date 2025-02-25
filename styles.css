@@ -1,0 +1,156 @@
+/* external CSS */
+
+.logo{
+    float:left; 
+    margin-right: 10px; 
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid darkgreen;
+}
+
+.otherImages{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+
+.lambImg{
+    color: darkgreen;
+    border: dotted;
+    float: left;
+}
+
+.lambImgRight {
+    color: darkgreen;
+    border: dotted;
+    float: right;
+}
+
+.cowImg {
+    color: darkgreen;
+    border: dotted;
+    border: dotted;
+}
+
+.oneLineImages{
+    text-align: center;
+
+}
+
+header{
+    background-color: lightgreen;
+    padding: 10px;
+    color: #8E8E8E;
+    text-align: right;
+}
+
+nav{
+    background-color: darkgreen;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+background-color: #8E8E8E;
+}
+#active{
+    
+    color: lightgreen;
+    border: dotted;
+}
+
+p{
+    color: white;
+}
+
+.homeBody{
+    font-family: Verdana;
+    background-color: black;
+}
+
+body{
+    font-family: Verdana;
+    background-color: white;
+}
+
+.blackP{
+    color: black;
+}
+
+h2{
+    text-align: left;
+    color: lightgreen;
+}
+
+footer {
+    background-color: darkgreen;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    
+   
+}
+
+footer p{
+    
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product{
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.productNoBorder{
+    text-align: center; 
+    border: solid darkgreen;
+    border-radius: 20px;
+    
+}
+
+.height{
+    max-height: 350px;
+    overflow: auto;
+    
+}
+
+
+
+#homeFooter{
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
